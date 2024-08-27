@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://www.youtube.com/";//your website url
+  let target = "https://www.zohoho.org/";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
@@ -13,7 +13,7 @@ module.exports = (req, res) => {
 
   createProxyMiddleware({
     target,
-    // changeOrigin: true,
+    /changeOrigin: true,
     pathRewrite: {
       // rewrite request path `/backend`
       //  /backend/user/login => http://google.com/user/login
