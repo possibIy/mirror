@@ -1,7 +1,7 @@
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 module.exports = (req, res) => {
-  let target = "https://piped.video/";//your website url
+  let target = "https://tube.cadence.moe/";//your website url
   //   if (
   //     req.url.startsWith("/api") ||
   //     req.url.startsWith("/auth") ||
